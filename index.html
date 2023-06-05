@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+    <link rel="stylesheet" href="links/style.css" />
+    <script
+      src="https://kit.fontawesome.com/691a1cca80.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- strart header section -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images/logo.png" class="logo" />
+            </div>
+            <div class="col-md-8">
+              <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#profilio">Protfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="header-text">
+          <!-- <p>My Profile</p> -->
+          <h1>Hi, I'm <span>Zakia</span> <br />Ahmadi From Afganistan</h1>
+          <div class="display-date">
+            <h6 id="currentDate"></h6>
+            <h6 id="currentTime"></h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end header section -->
+    <!--start about section -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/pic.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              web development and Network Engineer <br />Intelligent,
+              responsible, and innovative Web Developer seeking full time
+              position <br />
+              an established design firm requiring attention to detail,
+              professionalism, and collaboration/team orientation.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Web Development</span><br />Web Development MIS /
+                  website
+                </li>
+                <li><span>UI/UX</span><br />Designing Web / App interfaces</li>
+                <li>
+                  <span>Graphic Designing</span><br />Photoshop / Illustrator
+                </li>
+                <li>
+                  <span>Networking </span><br />Wireless Network / Network+
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>04/2021 - 08/2022</span><br />Enrollment Empolyee at
+                  (NSIA)
+                </li>
+                <li>
+                  <span>01/2021 - 12/2021</span><br />Peer Support Group
+                  Facilitator at (MA)
+                </li>
+                <li>
+                  <span>04/2020 - 04/2021</span><br />Web developer at Bytekent
+                  company
+                </li>
+                <li>
+                  <span>01/2020 - 04/2021</span><br />website designer at
+                  Shunqaar company
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2019</span><br />CS at PolyTechnic University</li>
+                <li><span>2015</span><br />Shahrak Safa High Schoo</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end about part section-->
+    <!-- start service section -->
+    <div id="Services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Designing</h2>
+            <p>
+              Web design encompasses many different skills and disciplines in
+              the production and maintenance of websites.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fas fa-crop-alt"></i>
+            <h2>UI/UX Designing</h2>
+            <p>
+              Learn more about the key roles, responsibilities, and skills of a
+              UI/UX designer and find out what employers look for in potential
+              UI/UX candidates in this comprehensive guide.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Networking</h2>
+            <p>
+              A computer network is a set of computers sharing resources located
+              on or provided by network nodes.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end service section -->
+    <!-- start profilio section -->
+    <div id="profilio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.jpg" alt="" />
+            <div class="layer">
+              <h3>Online Library website</h3>
+              <p>
+                You can download books online or read them online or buy them
+                online.
+              </p>
+
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.jpg" alt="" />
+            <div class="layer">
+              <h3>Management System for school</h3>
+              <p>
+                Only schools that have a contract can use this system to record
+                all their information
+              </p>
+
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="" />
+            <div class="layer">
+              <h3>Manegment System for HR</h3>
+              <p>
+                Only offices that contract can use this system to record all
+                their information.
+              </p>
+
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <!-- end profilio section -->
+    <!-- start contact section -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Connect Me</h1>
+            <p>
+              <i class="fa-sharp fa-solid fa-paper-plane"></i
+              >zakiaahmadi95@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>+93748671730</p>
+            <div class="social-icons">
+              <a
+                href="https://www.facebook.com/profile.php?id=100015051579429&mibextid=ZbWKwL"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/Zakia87475523"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/enzakia/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/zakia-ahmadi-527289157"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="images/Zakia_Ahmadi_CV.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+
+          <div class="contact-right">
+            <form>
+              <input
+                type="text"
+                name="Name"
+                placeholder="Your Name"
+                name="required"
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                name="required"
+              />
+              <textarea
+                name="massage"
+                rows="6"
+                placeholder="Your Massage"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright @ Zakia<i class="fas fa-heart"></i>Ahmadi</p>
+      </div>
+    </div>
+    <!-- end contact section -->
+    <script src="links/script.js"></script>
+  </body>
+</html>
